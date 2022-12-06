@@ -43,7 +43,11 @@ export async function processConfig(
       return await processTableConfig(prefix, tableConfig, connection);
     }
   );
-  return await Promise.all(tasks);
+  const artifacts = await Promise.all(tasks);
+  if (tablesConfig.gen.onCreateTables) {
+    await gen(tablesConfig);
+  }
+  return artifacts;
 }
 
 async function processTableConfig(
