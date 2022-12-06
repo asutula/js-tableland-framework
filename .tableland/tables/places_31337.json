@@ -1,0 +1,10 @@
+{
+  "name": "places_31337_2",
+  "prefix": "places",
+  "chainId": 31337,
+  "tableId": "2",
+  "schema": "name text, lon integer, lat integer",
+  "structureHash": "8652cbd2448fe6865f3f566c5591fd8525886787b2e446338af1910922f70e29",
+  "txnHash": "0x737bdd7c00dc685055921cf39409b8f8df5d3872fc989eeaaa31689ff6a0ca67",
+  "blockNumber": 6
+}

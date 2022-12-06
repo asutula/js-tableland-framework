@@ -1,0 +1,10 @@
+{
+  "name": "people_31337_3",
+  "prefix": "people",
+  "chainId": 31337,
+  "tableId": "3",
+  "schema": "first_name text, last_name text, age integer",
+  "structureHash": "3d3b77e476285659d0cc3f0e0e052ea5e8ff614a7a47ab9f8c8100987732cbe1",
+  "txnHash": "0x8c95b1229bc7796b700ba61d78285623e3c8d76da22f3233ec78492fe312b431",
+  "blockNumber": 7
+}
